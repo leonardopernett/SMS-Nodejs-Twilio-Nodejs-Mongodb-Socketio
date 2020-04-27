@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sms - node</title>
+{{!-- bootstrap --}}
+<link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://raw.githubusercontent.com/noppa/text-security/master/dist/text-security.css">
+{{!-- custom css --}}
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="https://cdn1.iconfinder.com/data/icons/google_jfk_icons_by_carlosjj/128/sms_search.png" type="image/x-icon">
+</head>
+
+<body>
+    {{>navigation}}
+   <div class="container">
+        {{{body}}}
+   </div>
+</body>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js"></script>
+ <script src="/socket.io/socket.io.js"></script>
+ <script src="js/app.js"></script>
+</html>
